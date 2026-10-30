@@ -10,6 +10,7 @@
 .page {
     max-width: 1100px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 body {
@@ -47,6 +48,30 @@ body {
     font-weight: bold;
     /*font-size: 1.5rem;*/
     /*text-shadow: 20px 10px 10px grey;*/
+}
+
+.page-buttons {
+    margin-left: auto;
+
+    display: flex;
+}
+
+.page-buttons a {
+    font-family: "Lexend";
+    font-weight: bold;
+    font-size: 1.10rem;
+
+    color: #111;
+    text-decoration: none;
+
+    padding: 20px 10px;
+
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.page-buttons a:hover {
+    color: darkgoldenrod;
 }
 
 .poster {
