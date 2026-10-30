@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+:root {
+    --primary-bg-colour: bisque;
+    --secondary-bg-colour: beige;
+}
+
+.page {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+body {
+  font-family: "Lexend";
+  font-size: 1.20rem;
+  /*line-height: 1.6;*/
+  letter-spacing: 0.02em;
+  color: #111;
+  /*background: #fff;*/
+  background-color: #FAF7F2;
+  margin: 10px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+
+    /*background-color: var(--primary-bg-colour);*/
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100%;
+
+    background-color: brown;
+    margin-right: 10px;
+}
+
+.name {
+    width: min-content;
+    font-weight: bold;
+    /*font-size: 1.5rem;*/
+    /*text-shadow: 20px 10px 10px grey;*/
+}
+
+.poster {
+    width: 100%;
+    height: 400px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.poster-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro-blurb {
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+
+    /*background-color: var(--primary-bg-colour);*/
+}
+
+.info-box {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: var(--primary-bg-colour);
+    box-shadow: 5px 5px 5px grey;
+}
+
+.info-blurb {
+    height: 100%;
+    width: 70%;
+    margin-left: 10px;
+    padding: 20px
+}
+
+.info-image {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-intro {
+    margin-bottom: 20px;
+}
+
+.left {
+    /*margin-right: 10px;*/
+}
+
+.right {
+    margin-left: 10px;
+    right: 0px;
+}
+
+h1, h2, h3, p {
+    margin: 0px 0px 5px 0px
+}
+
+h3 {
+    margin-top: 10px
+}
+
+.about {
+    margin-bottom: 10px;
+    padding: 15px 20px 15px 20px;
+    background-color: var(--primary-bg-colour);
+    box-shadow: 5px 5px 5px grey;
+}
+
+.about p {
+    max-width: 180ch;
+}
+
+.about h1 {
+    margin-top: 0px;
+}
+
+.divider {
+    height: 2px;
+    margin: 20px 5px 10px 5px;
+
+    background-color: black;
+    box-shadow: 5px 2px 5px grey;
+}
+
+.contact {
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-numbers {
+    display: flex;
+    flex-direction: row;
+}
+
+.fax {
+    margin-left: 30px;
+}
