@@ -1,0 +1,30 @@
+body {
+    font-size: 1.10rem;
+}
+
+.intro-blurb {
+    height: fit-content;
+}
+
+.info-box {
+    flex-direction: column;
+    height: fit-content;
+}
+
+.info-image {
+    order: -1;
+    width: 100%;
+    height: fit-content;
+}
+
+.info-blurb {
+    width: 100%;
+    max-width: 32ch;
+    height: fit-content;
+    padding: 0px 15px 0px 15px;
+    margin: 20px 0px 20px 0px;
+}
+
+h1 {
+    font-size: 1.60rem;
+}
